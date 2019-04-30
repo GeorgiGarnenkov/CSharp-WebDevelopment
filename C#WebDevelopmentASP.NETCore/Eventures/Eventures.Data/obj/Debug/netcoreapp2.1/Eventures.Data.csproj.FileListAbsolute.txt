@@ -1,0 +1,16 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Models.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Data.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Data.runtimeconfig.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Data.runtimeconfig.dev.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Data.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Data.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\bin\Debug\netcoreapp2.1\Eventures.Models.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.csproj.CopyComplete
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Data\obj\Debug\netcoreapp2.1\Eventures.Data.pdb

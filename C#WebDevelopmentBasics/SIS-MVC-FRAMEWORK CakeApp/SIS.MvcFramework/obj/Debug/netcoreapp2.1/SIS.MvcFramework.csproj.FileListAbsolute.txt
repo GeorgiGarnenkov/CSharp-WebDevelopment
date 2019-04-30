@@ -1,0 +1,14 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.MvcFramework.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.csproj.CopyComplete
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS-MVC-FRAMEWORK CakeApp\SIS.MvcFramework\obj\Debug\netcoreapp2.1\SIS.MvcFramework.pdb

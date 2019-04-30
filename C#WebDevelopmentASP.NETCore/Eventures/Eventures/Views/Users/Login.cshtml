@@ -1,0 +1,59 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container mt-3">
+    <h2 class="text-center">Login</h2>
+    @{var errors = ViewData.ModelState.Where(n => n.Value.Errors.Count > 0).ToList();}
+    @if (errors.Any())
+    {
+        foreach (var error in errors)
+        {
+            foreach (var valueError in error.Value.Errors)
+            {
+                <div class="alert alert-danger half-width text-center mx-auto alert-dismissible fade show" role="alert">
+                    <hr class="hr-2 bg-info" />
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Something went wrong!</strong> @valueError.ErrorMessage
+                </div>
+            }
+        }
+    }
+    <hr class="hr-2 half-width bg-info" />
+    <form class="half-width mx-auto text-center" asp-controller="Users" asp-action="Login" method="post">
+        <div class="form-group font-weight-bold">
+            <label asp-for="Username" class="col-form-label"></label>
+            <input asp-for="Username" class="form-control" placeholder="Username..." />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div class="form-group font-weight-bold">
+            <label asp-for="Password" class="col-form-label"></label>
+            <input asp-for="Password" class="form-control" placeholder="Password..." />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <hr class="hr-1 bg-info" />
+        <div class="form-group form-check-label">
+            <label asp-for="RememberMe">
+                <input asp-for="RememberMe" class="form-check-input" />
+                @Html.DisplayNameFor(x => x.RememberMe)
+            </label>
+        </div>
+        <hr class="hr-2 bg-info" />
+        <div class="form-group">
+            <button class="btn bg-info" type="submit">Login</button>
+        </div>
+    </form>
+    <div class="text-center">
+        <a asp-controller="Users" asp-action="Login" class="text-info">Forgot your password?</a>
+    </div>
+    <div class="text-center">
+        <a asp-controller="Users" asp-action="Register" class="text-info">Register as new user</a>
+    </div>
+    <hr class="hr-2 half-width bg-info" />
+    <partial name="_ExternalProvidersPartial" />
+    <hr class="hr-2 half-width bg-info" />
+</div>

@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "External Providers";
+}
+
+<div class="text-center">
+    @{
+        <form asp-controller="Users" asp-action="FaceBookLogin" method="post">
+            <div>
+                <button type="submit" class="btn bg-info" name="provider" value="Facebook">Facebook</button>
+            </div>
+        </form>
+    }
+</div>

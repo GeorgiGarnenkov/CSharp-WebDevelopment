@@ -1,0 +1,45 @@
+﻿<h1 class="text-center chushka-text-color">Create Product</h1>
+<hr class="hr-2 bg-dark" />
+<form class="mx-auto w-50" method="post" action="/Products/Create">
+    <div class="form-group">
+        <label for="name" class="chushka-text-color">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name..." name="name">
+    </div>
+    <div class="form-group">
+        <label for="price" class="chushka-text-color">Price</label>
+        <input type="number" step="0.01" min="0" class="form-control" id="price" placeholder="Price..." name="price">
+    </div>
+    <div class="form-group">
+        <label for="description" class="chushka-text-color">Description</label>
+        <textarea class="form-control" id="description" placeholder="Description..." name="description" rows="4"></textarea>
+    </div>
+
+    <h2 class="text-center chushka-text-color">Product Type</h2>
+    <hr class="w-50 hr-2 bg-dark" />
+    <div class="row justify-content-around">
+        <div class="col-md-2">
+            <input name="type" id="Food" value="Food" type="radio" />
+            <label for="Food" class="chushka-text-color">Food</label>
+        </div>
+        <div class="col-md-2">
+            <input name="type" id="Domestic" value="Domestic" type="radio" />
+            <label for="Domestic" class="chushka-text-color">Domestic</label>
+        </div>
+        <div class="col-md-2">
+            <input name="type" id="Health" value="Health" type="radio" />
+            <label for="Health" class="chushka-text-color">Health</label>
+        </div>
+        <div class="col-md-2">
+            <input name="type" id="Cosmetic" value="Cosmetic" type="radio" />
+            <label for="Cosmetic" class="chushka-text-color">Cosmetic</label>
+        </div>
+        <div class="col-md-2">
+            <input name="type" id="Other" value="Other" type="radio" />
+            <label for="Other" class="chushka-text-color">Other</label>
+        </div>
+    </div>
+    <hr class="chushka-bg-color w-50 hr-2" />
+    <div class="button-holder mt-4 d-flex justify-content-center">
+        <button type="submit" class="btn chushka-bg-color">Create</button>
+    </div>
+</form>

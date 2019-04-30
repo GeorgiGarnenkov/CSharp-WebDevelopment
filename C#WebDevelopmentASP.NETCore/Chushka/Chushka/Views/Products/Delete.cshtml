@@ -1,0 +1,63 @@
+﻿@model Chushka.Data.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center">Delete Product</h1>
+<hr class="hr-2 bg-dark" />
+<form asp-controller="Products" asp-action="Delete" class="mx-auto half-width" method="post">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Please fill all fields.</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" placeholder="Name..." disabled>
+        <span asp-validation-for="Name" class="alert-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control" placeholder="Price..." disabled>
+        <span asp-validation-for="Price" class="alert-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4" placeholder="Description..." disabled></textarea>
+        <span asp-validation-for="Description" class="alert-danger"></span>
+    </div>
+    <h4 class="text-center">Product Type</h4>
+    <hr class="hr-2 bg-dark half-width mt-4" />
+    <div class="product-type-holder mt-4 d-flex justify-content-around">
+        @{ var types = Enum.GetNames(typeof(ProductType));}
+        @foreach (var t in types)
+        {
+            <div class="form-check form-check-inline">
+                <input id="type(@t)"
+                       type="radio"
+                       @if (t == Model.Type.ToString()) { @Html.Raw("checked=\"checked\"") }
+                       name="Type"
+                       value="@t" disabled/>
+
+                <label class="form-check-label" for="type(@t)">@t</label>
+            </div>
+        }
+
+        <input asp-for="Id" class="form-control" type="hidden" disabled>
+    </div>
+    <hr class="hr-2 bg-dark half-width mt-4" />
+    <div class="button-holder mt-2 d-flex justify-content-center">
+        <div class="button-holder mt-2 d-flex w-25 mx-auto justify-content-between">
+            <button type="submit" class="btn chushka-bg-color">Delete</button>
+            <a asp-controller="Products" asp-action="Details" asp-route-id="@Model.Id">
+                <button type="button" class="btn chushka-bg-color">Cancel</button>
+            </a>
+            @*<button onclick="window.history.back()" class="btn chushka-bg-color">Cancel</button>*@
+        </div>
+    </div>
+</form>

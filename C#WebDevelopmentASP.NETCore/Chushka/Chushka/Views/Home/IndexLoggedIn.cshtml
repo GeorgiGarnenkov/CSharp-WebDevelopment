@@ -1,0 +1,36 @@
+﻿@model List<Chushka.ViewModels.ShowProductViewModel>;
+
+@{
+    ViewData["Title"] = "Index Logged In";
+}
+
+<main class="mt-3 mb-5">
+    <div class="container-fluid text-center">
+        <h2>Greetings, @User.Identity.Name!</h2>
+        <h4>Feel free to view and order any of our products.</h4>
+    </div>
+    <hr class="hr-2 bg-dark" />
+    <div class="container-fluid product-holder">
+        @for (int i = 0; i < Model.Count(); i += 5)
+        {
+            <div class="row d-flex justify-content-around mt-4">
+                @{
+                    for (int j = 0; j <= 4 && i + j < Model.Count(); j++)
+                    {
+                        <a asp-controller="Products" asp-action="Details" asp-route-id="@Model[j + i].Id" class="col-md-2">
+                            <div class="product p-1 chushka-bg-color rounded-top rounded-bottom">
+                                <h5 class="text-center mt-3">@Model[j + i].Name</h5>
+                                <hr class="hr-1 bg-white" />
+                                <p class="text-white text-center">
+                                    @Model[j + i].Description
+                                </p>
+                                <hr class="hr-1 bg-white" />
+                                <h6 class="text-center text-white mb-3">$@Model[j + i].Price</h6>
+                            </div>
+                        </a>
+                    }
+                }
+            </div>
+        }
+    </div>
+</main>

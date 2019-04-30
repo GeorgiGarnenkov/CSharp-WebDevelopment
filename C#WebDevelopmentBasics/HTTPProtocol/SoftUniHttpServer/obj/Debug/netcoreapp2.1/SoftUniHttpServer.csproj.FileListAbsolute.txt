@@ -1,0 +1,11 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.runtimeconfig.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.runtimeconfig.dev.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\bin\Debug\netcoreapp2.1\SoftUniHttpServer.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\SoftUniHttpServer\obj\Debug\netcoreapp2.1\SoftUniHttpServer.pdb

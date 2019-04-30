@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D053EE8C-CF3E-4476-96E9-32ACA54999F8}"
+	ProjectSection(SolutionItems) = preProject
+		borders.html = borders.html
+		colors.html = colors.html
+		contact.html = contact.html
+		fruits.html = fruits.html
+		headings.html = headings.html
+		hello.html = hello.html
+		home.html = home.html
+		paragraphs.html = paragraphs.html
+		receipt.html = receipt.html
+		rectangles.html = rectangles.html
+		todo.html = todo.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4CD5CF6A-508D-4C6E-B603-058A08FB9BBD}"
+	ProjectSection(SolutionItems) = preProject
+		images\apple.png = images\apple.png
+		images\banana.png = images\banana.png
+		images\kiwi.png = images\kiwi.png
+		images\orange.png = images\orange.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CD5CF6A-508D-4C6E-B603-058A08FB9BBD} = {D053EE8C-CF3E-4476-96E9-32ACA54999F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5A665E7-5729-4123-92F5-72CB76B73B3B}
+	EndGlobalSection
+EndGlobal

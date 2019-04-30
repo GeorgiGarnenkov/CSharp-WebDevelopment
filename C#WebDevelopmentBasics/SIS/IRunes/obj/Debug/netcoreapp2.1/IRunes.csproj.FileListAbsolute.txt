@@ -1,0 +1,16 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\IRunes.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\IRunes.runtimeconfig.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\IRunes.runtimeconfig.dev.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\IRunes.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\IRunes.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.csproj.CopyComplete
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\IRunes\obj\Debug\netcoreapp2.1\IRunes.pdb

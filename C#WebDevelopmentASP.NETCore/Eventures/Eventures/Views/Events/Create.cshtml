@@ -1,0 +1,52 @@
+﻿@model Eventures.ViewModels.Events.CreateEventViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container">
+    <h1 class="text-center">Create Event</h1>
+    <hr class="hr-2 half-width bg-info" />
+    <form class="half-width mx-auto text-center" method="post">
+        <div class="row">
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="Name" class="col-form-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="Iron Maiden - Hills of Rock" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="Place" class="col-form-label"></label>
+                <input asp-for="Place" class="form-control" placeholder="Plovdiv, Bulgaria" />
+                <span asp-validation-for="Place" class="text-danger"></span>
+            </div>
+        </div>
+        <hr class="hr-1 bg-info" />
+        <div class="row">
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="Start" class="col-form-label"></label>
+                <input asp-for="Start" class="form-control" placeholder="Start..." />
+                <span asp-validation-for="Start" class="text-danger"></span>
+            </div>
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="End" class="col-form-label"></label>
+                <input asp-for="End" class="form-control" placeholder="End..." />
+                <span asp-validation-for="End" class="text-danger"></span>
+            </div>
+        </div>
+        <hr class="hr-1 bg-info" />
+        <div class="row">
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="TotalTickets" class="col-form-label"></label>
+                <input asp-for="TotalTickets" class="form-control" placeholder="1000" />
+                <span asp-validation-for="TotalTickets" class="text-danger"></span>
+            </div>
+            <div class="form-group font-weight-bold col-md-6">
+                <label asp-for="PricePerTicket" class="col-form-label"></label>
+                <input asp-for="PricePerTicket" class="form-control" placeholder="150" />
+                <span asp-validation-for="PricePerTicket" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="btn bg-info" type="submit">Create</button>
+        </div>
+    </form>
+    <hr class="hr-2 half-width bg-info" />
+</div>

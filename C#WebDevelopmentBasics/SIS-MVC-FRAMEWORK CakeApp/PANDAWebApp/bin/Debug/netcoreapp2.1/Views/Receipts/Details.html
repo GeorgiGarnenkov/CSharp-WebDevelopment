@@ -1,0 +1,34 @@
+﻿<h1 class="text-center">Receipt Details</h1>
+<hr class="hr-2 bg-panda">
+<div class="mx-auto">
+    <div class="receipt-id-handler d-flex justify-content-between">
+        <h3>Receipt Number:</h3>
+        <h3>@model.Id</h3>
+    </div>
+    <hr class="hr-2 bg-panda">
+    <div class="d-flex justify-content-between">
+        <h4>Issued On:</h4>
+        <h4>@model.IssuedOn</h4>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Delivery Address:</h4>
+        <h4>@model.DeliveryAddress</h4>
+    </div>
+    <hr class="hr-2 bg-panda">
+    <div class="d-flex justify-content-between">
+        <h4>Package Weight (KG):</h4>
+        <h4>@model.Weight</h4>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Package Description:</h4>
+        <h4>@model.Description</h4>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Recipient:</h4>
+        <h4>@model.Recipient</h4>
+    </div>
+    <hr class="hr-2 bg-panda">
+    <div class="fee-holder d-flex justify-content-end">
+        <h3>Total: $@model.Total</h3>
+    </div>
+</div>

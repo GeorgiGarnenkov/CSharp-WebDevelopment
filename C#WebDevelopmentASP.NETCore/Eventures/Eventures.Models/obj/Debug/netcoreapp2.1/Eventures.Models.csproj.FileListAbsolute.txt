@@ -1,0 +1,12 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\bin\Debug\netcoreapp2.1\Eventures.Models.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\bin\Debug\netcoreapp2.1\Eventures.Models.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\bin\Debug\netcoreapp2.1\Eventures.Models.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.csproj.CopyComplete
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures.Models\obj\Debug\netcoreapp2.1\Eventures.Models.csprojAssemblyReference.cache

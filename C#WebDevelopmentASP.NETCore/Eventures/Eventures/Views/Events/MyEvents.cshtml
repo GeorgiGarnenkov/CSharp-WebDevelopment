@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Eventures.ViewModels.Events.MyEventViewModel>
+
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "My Events";
+}
+
+<div class="container">
+    <h1 class="text-center">My Events</h1>
+    <hr class="hr-2 bg-info" />
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr class="font-weight-bold">
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Start</th>
+                <th scope="col">End</th>
+                <th scope="col">Tickets</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{ var count = 1;}
+            @foreach (var ev in Model)
+            {
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@ev.Name</td>
+                    <td>@ev.Start.ToString("dd-MMM-yy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                    <td>@ev.End.ToString("dd-MMM-yy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                    <td>@ev.Tickets</td>
+                </tr>
+                count++;
+            }
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr-2 bg-info" />
+</div>
+

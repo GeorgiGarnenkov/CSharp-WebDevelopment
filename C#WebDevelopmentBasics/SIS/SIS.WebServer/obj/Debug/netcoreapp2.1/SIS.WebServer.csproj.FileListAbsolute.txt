@@ -1,0 +1,12 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb

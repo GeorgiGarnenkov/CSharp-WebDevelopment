@@ -1,0 +1,34 @@
+﻿<h1 class="text-center">Create Product</h1>
+<hr class="bg-secondary w-50" />
+<form class="mx-auto w-50" method="post" action="/products/create">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name..." name="name">
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="number" step="0.01" min="0" class="form-control" id="price" placeholder="Price..." name="price">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" name="description" rows="4" placeholder="Description..."></textarea>
+    </div>
+    <h4 class="text-center">Product type</h4>
+    <hr class="bg-secondary w-50" />
+    <div class="row justify-content-around">
+        <div class="row justify-content-around">
+            { var types = new[] { "Food", "Domestic", "Health", "Cosmetic", "Other" }; }
+            @foreach(var type in types)
+            {
+                <div class="col-md-2">
+                    <input id="type@type" type="radio" name="type" value="@type" />
+                    <label for="type@type">@type</label>
+                </div>
+            }
+        </div>
+    </div>
+    <hr class="bg-secondary w-50" />
+    <div class="button-holder d-flex justify-content-center">
+        <button type="submit" class="btn chushka-bg-color">Create</button>
+    </div>
+</form>

@@ -1,0 +1,10 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\bin\Debug\netcoreapp2.1\TEST.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\bin\Debug\netcoreapp2.1\TEST.runtimeconfig.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\bin\Debug\netcoreapp2.1\TEST.runtimeconfig.dev.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\bin\Debug\netcoreapp2.1\TEST.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\bin\Debug\netcoreapp2.1\TEST.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\obj\Debug\netcoreapp2.1\TEST.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\obj\Debug\netcoreapp2.1\TEST.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\obj\Debug\netcoreapp2.1\TEST.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\obj\Debug\netcoreapp2.1\TEST.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\HTTPProtocol\TEST\obj\Debug\netcoreapp2.1\TEST.pdb

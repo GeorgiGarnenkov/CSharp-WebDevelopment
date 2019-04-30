@@ -1,0 +1,9 @@
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\bin\Debug\netcoreapp2.1\SIS.Services.deps.json
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\bin\Debug\netcoreapp2.1\SIS.Services.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\bin\Debug\netcoreapp2.1\SIS.Services.pdb
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.csprojAssemblyReference.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.csproj.CoreCompileInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.AssemblyInfoInputs.cache
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.AssemblyInfo.cs
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.dll
+D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentBasics\SIS\SIS.Services\obj\Debug\netcoreapp2.1\SIS.Services.pdb

@@ -1,0 +1,79 @@
+﻿<div class="container-fluid text-center">
+    @if (User.Role == "Admin")
+    {
+        <h2>Hello, Administrator @User.Username!</h2>
+    }
+    @else
+    {
+        <h2>Hello, @User.Username!</h2>
+    }
+</div>
+<hr class="hr-1 bg-dark" />
+<div class="row">
+    <div class="col">
+        <div class="col-auto">
+            <h3 class="col-auto text-center font-weight-bold">Pending</h3>
+            <div class="container-fluid border-panda">
+                <div class="mb-3">
+                    @for(int i = 0; i < Model.PendingPackages.Count(); i++)
+                    {
+                        { var package = Model.PendingPackages.ToList()[i]; }
+        
+                        <div class="row" style="justify-content: space-around">
+                            <div class="font-weight-bold col ml-4 mt-3 mb-4 h5">
+                                @package.Description
+                            </div>
+                            <div class="col mt-3">
+                                <a href="/packages/details?id=@package.Id" class="btn bg-panda text-white">Details</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="col-auto">
+            <h3 class="col-auto text-center font-weight-bold">Shipped</h3>
+            <div class="container-fluid border-panda">
+                <div class="mb-3">
+                    @for(int i = 0; i < Model.ShippedPackages.Count(); i++)
+                    {
+                        { var package = Model.ShippedPackages.ToList()[i]; }
+
+                        <div class="row" style="justify-content: space-around">
+                            <div class="font-weight-bold col ml-4 mt-3 mb-4 h5">
+                                @package.Description
+                            </div>
+                            <div class="col mt-3">
+                                <a href="/packages/details?id=@package.Id" class="btn bg-panda text-white">Details</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="col-auto">
+            <h3 class="col-auto text-center font-weight-bold">Delivered</h3>
+            <div class="container-fluid border-panda">
+                <div class="mb-3">
+                    @for(int i = 0; i < Model.DeliveredPackages.Count(); i++)
+                    {
+                        { var package = Model.DeliveredPackages.ToList()[i]; }
+
+                        <div class="row" style="justify-content: space-around">
+                            <div class="font-weight-bold col ml-4 mt-3 mb-4 h5">
+                                @package.Description
+                            </div>
+                            <div class="col mt-3">
+                                <a href="/packages/acquire?id=@package.Id" class="btn bg-panda text-white">Acquire</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿hr {
+    border-color: limegreen;
+    border-top-width: 2px;
+    padding-bottom: 4px;
+}
+
+footer {
+    text-align: center
+}
+
+.hr-white {
+    border-color: white;
+}
+
+.form-title {
+    font-size: xx-large;
+    color: limegreen;
+    text-align: center;
+}
+
+.container-botom-margin {
+    margin-bottom: 30px
+}
+
+.nav-links-mr-pd{
+    padding-left: 0px;
+    margin-left: 0px;
+}

@@ -1,0 +1,66 @@
+﻿@model Eventures.ViewModels.Events.CreateEventOrderViewModel
+@using System.Globalization
+@using System.Security.Claims
+@{
+    ViewData["Title"] = "All Events";
+}
+<div class="container">
+    <h1 class="text-center">All Events</h1>
+    @{var errors = ViewData.ModelState.Where(n => n.Value.Errors.Count > 0).ToList();}
+    @if (errors.Any())
+    {
+        foreach (var error in errors)
+        {
+            foreach (var valueError in error.Value.Errors)
+            {
+                <div class="alert alert-danger half-width text-center mx-auto alert-dismissible fade show" role="alert">
+                    <hr class="hr-2 bg-info" />
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Something went wrong!</strong> @valueError.ErrorMessage
+                </div>
+            }
+        }
+    }
+    <hr class="hr-2 bg-info" />
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr class="font-weight-bold">
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Start</th>
+                    <th scope="col">End</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ var count = 1;}
+                @foreach (var ev in Model.CreateEventViewModels)
+                {
+                    <tr>
+                        <th scope="row">@count</th>
+                        <td>@ev.Name</td>
+                        <td>@ev.Start.ToString("dd-MMM-yy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                        <td>@ev.End.ToString("dd-MMM-yy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                        <td>
+                            <form asp-controller="Orders" asp-action="Create" class="form-inline" method="post">
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                                <div class="form-group">
+                                    <input type="hidden" name="@nameof(Model.CreateOrderViewModel.CustomerId)" value="@User.FindFirst(ClaimTypes.NameIdentifier).Value" />
+                                    <input type="hidden" name="@nameof(Model.CreateOrderViewModel.EventId)" value="@ev.Id" />
+                                    <label asp-for="@Model.CreateOrderViewModel.TicketsCount" class="font-weight-bold"></label>
+                                    <input asp-for="@Model.CreateOrderViewModel.TicketsCount" name="TicketsCount" class="form-control mx-2" />
+                                    <button type="submit" class="btn bg-info">Order</button>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    count++;
+                }
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr-2 bg-info" />
+</div>

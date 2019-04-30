@@ -1,0 +1,22 @@
+.bg-mishmash {
+    background-color: black;
+}
+
+.text-mishmash {
+    color: black;
+}
+
+.nav-link-white {
+    color: #FFFFFF;
+}
+
+.hr-2 {
+    height: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    border: 0;
+    width: 98%;
+}

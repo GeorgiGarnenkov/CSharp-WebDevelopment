@@ -1,0 +1,516 @@
+2018-12-06T20:58:46.4085168+02:00 0HLIRLJC18IAT:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-12-06T20:58:51.1570376+02:00 0HLIRLJC18IAT:00000001 [WRN] No type was specified for the decimal column '"PricePerTicket"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-12-06T20:58:51.3982611+02:00 0HLIRLJC18IAT:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:58:54.0630006+02:00 0HLIRLJC18IAT:00000001 [INF] Executed DbCommand ("387"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:58:55.2456763+02:00 0HLIRLJC18IAT:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Index (Eventures)" (a44c0341)
+2018-12-06T20:58:55.2753902+02:00 0HLIRLJC18IAT:00000001 [INF] Executing action method "Eventures.Controllers.HomeController.Index (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:58:55.2825065+02:00 0HLIRLJC18IAT:00000001 [INF] Executed action method "Eventures.Controllers.HomeController.Index (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6314ms. (50a9e262)
+2018-12-06T20:59:00.4468807+02:00 0HLIRLJC18IAT:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-12-06T20:59:01.5600997+02:00 0HLIRLJC18IAT:00000001 [INF] Executed ViewResult - view "Index" executed in 6262.2578ms. (f66409e9)
+2018-12-06T20:59:01.5607723+02:00 0HLIRLJC18IAT:00000001 [INF] Executed action "Eventures.Controllers.HomeController.Index (Eventures)" in 6314.6282ms (afa2e885)
+2018-12-06T20:59:01.5977653+02:00 0HLIRLJC18IAV:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-12-06T20:59:01.6007744+02:00 0HLIRLJC18IAV:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:01.6139328+02:00 0HLIRLJC18IAT:00000001 [INF] Request finished in 15212.3387ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:01.6153676+02:00 0HLIRLJC18IAT:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-12-06T20:59:01.6162663+02:00 0HLIRLJC18IAT:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:01.6205895+02:00 0HLIRLJC18IAV:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:01.6327838+02:00 0HLIRLJC18IAT:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:01.6470307+02:00 0HLIRLJC18IB0:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-12-06T20:59:01.6482302+02:00 0HLIRLJC18IB0:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:01.6496376+02:00 0HLIRLJC18IB0:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:01.7137631+02:00 0HLIRLJC18IB0:00000001 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures\wwwroot\css\style.css"' (27b0a520)
+2018-12-06T20:59:01.7141790+02:00 0HLIRLJC18IB0:00000001 [INF] Request finished in 67.2286ms 200 text/css (791a596a)
+2018-12-06T20:59:01.7873972+02:00 0HLIRLJC18IAT:00000002 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures\wwwroot\css\reset-css.css"' (27b0a520)
+2018-12-06T20:59:01.8060887+02:00 0HLIRLJC18IAT:00000002 [INF] Request finished in 190.7488ms 200 text/css (791a596a)
+2018-12-06T20:59:01.8540489+02:00 0HLIRLJC18IAV:00000001 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures\wwwroot\css\bootstrap.min.css"' (27b0a520)
+2018-12-06T20:59:01.8545379+02:00 0HLIRLJC18IAV:00000001 [INF] Request finished in 256.9265ms 200 text/css (791a596a)
+2018-12-06T20:59:01.9201569+02:00 0HLIRLJC18IAV:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2018-12-06T20:59:01.9211636+02:00 0HLIRLJC18IAV:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:01.9223685+02:00 0HLIRLJC18IAV:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:01.9375178+02:00 0HLIRLJC18IAV:00000002 [INF] Request finished in 17.6375ms 302  (791a596a)
+2018-12-06T20:59:01.9701492+02:00 0HLIRLJC18IAV:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:01.9714889+02:00 0HLIRLJC18IAV:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:01.9811523+02:00 0HLIRLJC18IAV:00000003 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:01.9863253+02:00 0HLIRLJC18IAV:00000003 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:01.9879737+02:00 0HLIRLJC18IAV:00000003 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:01.9894807+02:00 0HLIRLJC18IAV:00000003 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.2976ms. (50a9e262)
+2018-12-06T20:59:02.2836748+02:00 0HLIRLJC18IAT:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2018-12-06T20:59:02.2843950+02:00 0HLIRLJC18IAT:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:02.2854272+02:00 0HLIRLJC18IAT:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:02.2864723+02:00 0HLIRLJC18IAT:00000003 [INF] Request finished in 2.8305ms 302  (791a596a)
+2018-12-06T20:59:02.8881757+02:00 0HLIRLJC18IAV:00000003 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:02.8982310+02:00 0HLIRLJC18IAV:00000003 [INF] Executed ViewResult - view "Error" executed in 908.2584ms. (f66409e9)
+2018-12-06T20:59:02.8984398+02:00 0HLIRLJC18IAV:00000003 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 911.9735ms (afa2e885)
+2018-12-06T20:59:02.8987759+02:00 0HLIRLJC18IAV:00000003 [INF] Request finished in 929.681ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:02.9035270+02:00 0HLIRLJC18IAV:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:02.9046373+02:00 0HLIRLJC18IAV:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:02.9092252+02:00 0HLIRLJC18IAV:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:02.9098321+02:00 0HLIRLJC18IAV:00000004 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:02.9100739+02:00 0HLIRLJC18IAV:00000004 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:02.9102025+02:00 0HLIRLJC18IAV:00000004 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0214ms. (50a9e262)
+2018-12-06T20:59:02.9103479+02:00 0HLIRLJC18IAV:00000004 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:02.9116541+02:00 0HLIRLJC18IAV:00000004 [INF] Executed ViewResult - view "Error" executed in 1.3235ms. (f66409e9)
+2018-12-06T20:59:02.9117434+02:00 0HLIRLJC18IAV:00000004 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.8059ms (afa2e885)
+2018-12-06T20:59:02.9118848+02:00 0HLIRLJC18IAV:00000004 [INF] Request finished in 8.4184ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:03.2372266+02:00 0HLIRLJC18IAV:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   (ca22a1cb)
+2018-12-06T20:59:03.2380517+02:00 0HLIRLJC18IAV:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:03.2397983+02:00 0HLIRLJC18IAV:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:03.3879581+02:00 0HLIRLJC18IAV:00000005 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\SOFTUNI\RepoFolder\C#WebDevelopment\C#WebDevelopmentASP.NETCore\Eventures\Eventures\wwwroot\favicon.ico"' (27b0a520)
+2018-12-06T20:59:03.3881642+02:00 0HLIRLJC18IAV:00000005 [INF] Request finished in 151.0006ms 200 image/x-icon (791a596a)
+2018-12-06T20:59:08.2445585+02:00 0HLIRLJC18IAV:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Users/Register   (ca22a1cb)
+2018-12-06T20:59:08.2453515+02:00 0HLIRLJC18IAV:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:08.2462091+02:00 0HLIRLJC18IAV:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:08.2620911+02:00 0HLIRLJC18IAV:00000006 [INF] Route matched with "{action = \"Register\", controller = \"Users\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.UsersController.Register (Eventures)" (a44c0341)
+2018-12-06T20:59:08.2642688+02:00 0HLIRLJC18IAV:00000006 [INF] Executing action method "Eventures.Controllers.UsersController.Register (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:08.2653541+02:00 0HLIRLJC18IAV:00000006 [INF] Executed action method "Eventures.Controllers.UsersController.Register (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8969ms. (50a9e262)
+2018-12-06T20:59:08.8244670+02:00 0HLIRLJC18IAV:00000006 [INF] Executing ViewResult, running view "Register". (c83d0e25)
+2018-12-06T20:59:08.9507857+02:00 0HLIRLJC18IAV:00000006 [INF] Executed ViewResult - view "Register" executed in 685.191ms. (f66409e9)
+2018-12-06T20:59:08.9510432+02:00 0HLIRLJC18IAV:00000006 [INF] Executed action "Eventures.Controllers.UsersController.Register (Eventures)" in 688.7351ms (afa2e885)
+2018-12-06T20:59:08.9514568+02:00 0HLIRLJC18IAV:00000006 [INF] Request finished in 706.9924ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:08.9776801+02:00 0HLIRLJC18IAT:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2018-12-06T20:59:08.9776801+02:00 0HLIRLJC18IAV:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2018-12-06T20:59:08.9814715+02:00 0HLIRLJC18IAV:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:08.9818593+02:00 0HLIRLJC18IAT:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:08.9829610+02:00 0HLIRLJC18IAV:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:08.9836402+02:00 0HLIRLJC18IAV:00000007 [INF] Request finished in 5.9185ms 302  (791a596a)
+2018-12-06T20:59:08.9865270+02:00 0HLIRLJC18IAT:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:08.9871424+02:00 0HLIRLJC18IAT:00000004 [INF] Request finished in 9.5528ms 302  (791a596a)
+2018-12-06T20:59:09.0044742+02:00 0HLIRLJC18IAT:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:09.0045898+02:00 0HLIRLJC18IAV:00000008 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:09.0051672+02:00 0HLIRLJC18IAT:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:09.0054698+02:00 0HLIRLJC18IAV:00000008 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:09.0061771+02:00 0HLIRLJC18IAT:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:09.0065297+02:00 0HLIRLJC18IAT:00000005 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:09.0066769+02:00 0HLIRLJC18IAT:00000005 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:09.0067760+02:00 0HLIRLJC18IAT:00000005 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0133ms. (50a9e262)
+2018-12-06T20:59:09.0069335+02:00 0HLIRLJC18IAT:00000005 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:09.0070589+02:00 0HLIRLJC18IAV:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:09.0074038+02:00 0HLIRLJC18IAV:00000008 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:09.0075707+02:00 0HLIRLJC18IAV:00000008 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:09.0077233+02:00 0HLIRLJC18IAV:00000008 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0151ms. (50a9e262)
+2018-12-06T20:59:09.0078925+02:00 0HLIRLJC18IAV:00000008 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:09.0080125+02:00 0HLIRLJC18IAT:00000005 [INF] Executed ViewResult - view "Error" executed in 1.1107ms. (f66409e9)
+2018-12-06T20:59:09.0081103+02:00 0HLIRLJC18IAT:00000005 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.5083ms (afa2e885)
+2018-12-06T20:59:09.0083249+02:00 0HLIRLJC18IAT:00000005 [INF] Request finished in 3.9359ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:09.0090197+02:00 0HLIRLJC18IAV:00000008 [INF] Executed ViewResult - view "Error" executed in 1.1624ms. (f66409e9)
+2018-12-06T20:59:09.0091384+02:00 0HLIRLJC18IAV:00000008 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.6341ms (afa2e885)
+2018-12-06T20:59:09.0093013+02:00 0HLIRLJC18IAV:00000008 [INF] Request finished in 4.7208ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:13.8249624+02:00 0HLIRLJC18IAV:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Users/Login   (ca22a1cb)
+2018-12-06T20:59:13.8256536+02:00 0HLIRLJC18IAV:00000009 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:13.8265136+02:00 0HLIRLJC18IAV:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:13.8288398+02:00 0HLIRLJC18IAV:00000009 [INF] Route matched with "{action = \"Login\", controller = \"Users\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.UsersController.Login (Eventures)" (a44c0341)
+2018-12-06T20:59:13.8292441+02:00 0HLIRLJC18IAV:00000009 [INF] Executing action method "Eventures.Controllers.UsersController.Login (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:13.8303084+02:00 0HLIRLJC18IAV:00000009 [INF] Executed action method "Eventures.Controllers.UsersController.Login (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8996ms. (50a9e262)
+2018-12-06T20:59:14.2174002+02:00 0HLIRLJC18IAV:00000009 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-12-06T20:59:14.4663273+02:00 0HLIRLJC18IAV:00000009 [INF] Executed ViewResult - view "Login" executed in 635.839ms. (f66409e9)
+2018-12-06T20:59:14.4664898+02:00 0HLIRLJC18IAV:00000009 [INF] Executed action "Eventures.Controllers.UsersController.Login (Eventures)" in 637.5575ms (afa2e885)
+2018-12-06T20:59:14.4667499+02:00 0HLIRLJC18IAV:00000009 [INF] Request finished in 641.8152ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:14.4905416+02:00 0HLIRLJC18IAV:0000000A [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2018-12-06T20:59:14.4924967+02:00 0HLIRLJC18IAT:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2018-12-06T20:59:14.4936815+02:00 0HLIRLJC18IAV:0000000A [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:14.4937484+02:00 0HLIRLJC18IAT:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:14.4955615+02:00 0HLIRLJC18IAT:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:14.4959940+02:00 0HLIRLJC18IAV:0000000A [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:14.4964469+02:00 0HLIRLJC18IAT:00000006 [INF] Request finished in 5.2536ms 302  (791a596a)
+2018-12-06T20:59:14.4964464+02:00 0HLIRLJC18IAV:0000000A [INF] Request finished in 6.2845ms 302  (791a596a)
+2018-12-06T20:59:14.5155784+02:00 0HLIRLJC18IAV:0000000B [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:14.5163803+02:00 0HLIRLJC18IAV:0000000B [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:14.5172875+02:00 0HLIRLJC18IAV:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:14.5176673+02:00 0HLIRLJC18IAV:0000000B [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:14.5178587+02:00 0HLIRLJC18IAV:0000000B [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:14.5179944+02:00 0HLIRLJC18IAV:0000000B [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0178ms. (50a9e262)
+2018-12-06T20:59:14.5181470+02:00 0HLIRLJC18IAV:0000000B [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:14.5191703+02:00 0HLIRLJC18IAV:0000000B [INF] Executed ViewResult - view "Error" executed in 1.0491ms. (f66409e9)
+2018-12-06T20:59:14.5192957+02:00 0HLIRLJC18IAV:0000000B [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.5315ms (afa2e885)
+2018-12-06T20:59:14.5195099+02:00 0HLIRLJC18IAV:0000000B [INF] Request finished in 3.9867ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:14.5214957+02:00 0HLIRLJC18IAV:0000000C [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:14.5220727+02:00 0HLIRLJC18IAV:0000000C [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:14.5234743+02:00 0HLIRLJC18IAV:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:14.5239853+02:00 0HLIRLJC18IAV:0000000C [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:14.5241941+02:00 0HLIRLJC18IAV:0000000C [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:14.5243584+02:00 0HLIRLJC18IAV:0000000C [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0191ms. (50a9e262)
+2018-12-06T20:59:14.5245235+02:00 0HLIRLJC18IAV:0000000C [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:14.5258898+02:00 0HLIRLJC18IAV:0000000C [INF] Executed ViewResult - view "Error" executed in 1.3583ms. (f66409e9)
+2018-12-06T20:59:14.5260407+02:00 0HLIRLJC18IAV:0000000C [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.9242ms (afa2e885)
+2018-12-06T20:59:14.5262629+02:00 0HLIRLJC18IAV:0000000C [INF] Request finished in 4.7913ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:19.3361174+02:00 0HLIRLJC18IAV:0000000D [INF] Request starting HTTP/1.1 POST https://localhost:5001/Users/FaceBookLogin application/x-www-form-urlencoded 200 (ca22a1cb)
+2018-12-06T20:59:19.3369452+02:00 0HLIRLJC18IAV:0000000D [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:19.3380363+02:00 0HLIRLJC18IAV:0000000D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:19.3784597+02:00 0HLIRLJC18IAV:0000000D [INF] Route matched with "{action = \"FaceBookLogin\", controller = \"Users\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.UsersController.FaceBookLogin (Eventures)" (a44c0341)
+2018-12-06T20:59:19.4518060+02:00 0HLIRLJC18IAV:0000000D [INF] Executing action method "Eventures.Controllers.UsersController.FaceBookLogin (Eventures)" with arguments (["Facebook", ""]) - Validation state: Valid (4e3479ed)
+2018-12-06T20:59:19.4524879+02:00 0HLIRLJC18IAV:0000000D [INF] Executed action method "Eventures.Controllers.UsersController.FaceBookLogin (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ChallengeResult" in 0.5533ms. (50a9e262)
+2018-12-06T20:59:19.4550140+02:00 0HLIRLJC18IAV:0000000D [INF] Executing ChallengeResult with authentication schemes (["Facebook"]). (f3dca807)
+2018-12-06T20:59:19.4642228+02:00 0HLIRLJC18IAV:0000000D [INF] AuthenticationScheme: "Facebook" was challenged. (d45f1f38)
+2018-12-06T20:59:19.4644102+02:00 0HLIRLJC18IAV:0000000D [INF] Executed action "Eventures.Controllers.UsersController.FaceBookLogin (Eventures)" in 85.8465ms (afa2e885)
+2018-12-06T20:59:19.4646459+02:00 0HLIRLJC18IAV:0000000D [INF] Request finished in 128.5552ms 302  (791a596a)
+2018-12-06T20:59:26.9633457+02:00 0HLIRLJC18IAV:0000000E [INF] Request starting HTTP/1.1 GET https://localhost:5001/signin-facebook?code=AQB-R6DTzZpeORv-XVA21TR9hd5Am65mb6GRKV8k0yqG7dVYTsPylI1-EF5XQT_WY9_eCmuSFCVaWTcF35pLD2md5JFJ5L1KokLhz6C7WAZTSI6R0lt7GzN_HIaUDrxyKXzP5a8gdj0wIZbvuAkvsIilgJ-iSzlmDK2e4lJcjuV43S-yiCZvfbCobFGQ-HDZe2O2sc9Y20BjyjYhsAtCllkd-rL3APrWWZHKxaPELUAVsG7HACF5ghW_ehzQ8ilTR0lbMvUAixsyxFntS8ozEWtjOcxpjm7pWbpKe8W5l-pz5O9kJ3OeI9QFUfIruqz-In0LoC3-CeGZiiKewLw7Dtnx&state=CfDJ8FOQkpgVnItIgrju8ZpmsHSUtpCrOc4aVQq-ONtRu9tK5B2OKkua1M2YeWaOlkC6ooWlAs-w9_SuvXihcUhgRGzDeoWWhcYJGUN44s4EabebUwMVYZSzU3cfYw3RCeBd9eJp1oeUc8e1_XFgv8hzF6GSBVzdIC78C-njwljxR_kQzjwn2Cz48bUvb5MR5dyKiJ0Y7tJ_d0iEbPmCFAnEuYmeZ387NM1d9YfaUKw1m9EfASL3HBZKBZNj9Yr1pHn13HDqdALJF_JodYs56qUDJpE   (ca22a1cb)
+2018-12-06T20:59:26.9651334+02:00 0HLIRLJC18IAV:0000000E [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:26.9681144+02:00 0HLIRLJC18IAV:0000000E [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:28.8981939+02:00 0HLIRLJC18IAV:0000000E [INF] AuthenticationScheme: "Identity.External" signed in. (c66dd7e7)
+2018-12-06T20:59:28.9009722+02:00 0HLIRLJC18IAV:0000000E [INF] Request finished in 1937.7787ms 302  (791a596a)
+2018-12-06T20:59:28.9054883+02:00 0HLIRLJC18IAV:0000000F [INF] Request starting HTTP/1.1 GET https://localhost:5001/Users/ExternalLoginCallback   (ca22a1cb)
+2018-12-06T20:59:28.9060965+02:00 0HLIRLJC18IAV:0000000F [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:28.9090253+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:28.9415117+02:00 0HLIRLJC18IAV:0000000F [INF] Route matched with "{action = \"ExternalLoginCallback\", controller = \"Users\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.UsersController.ExternalLoginCallback (Eventures)" (a44c0341)
+2018-12-06T20:59:28.9416955+02:00 0HLIRLJC18IAV:0000000F [INF] Executing action method "Eventures.Controllers.UsersController.ExternalLoginCallback (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:29.2449485+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("70"ms) [Parameters=["@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)" (0723d8ff)
+2018-12-06T20:59:29.3396482+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:29.4634094+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("62"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UCN], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-12-06T20:59:29.6769101+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("62"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTimeOffset), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 4000), @p17='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UCN], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);" (0723d8ff)
+2018-12-06T20:59:29.7083773+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=["@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)" (0723d8ff)
+2018-12-06T20:59:29.7539986+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("27"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UCN], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-12-06T20:59:29.8114089+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("35"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (Size = 4000), @p3='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserLogins] ([LoginProvider], [ProviderKey], [ProviderDisplayName], [UserId])
+VALUES (@p0, @p1, @p2, @p3);" (0723d8ff)
+2018-12-06T20:59:29.9398882+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("127"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UCN] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-12-06T20:59:30.0192602+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("13"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2018-12-06T20:59:30.1111387+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("18"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2018-12-06T20:59:30.1279489+02:00 0HLIRLJC18IAV:0000000F [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2018-12-06T20:59:30.1549603+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2018-12-06T20:59:30.2226437+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("5"ms) [Parameters=["@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)" (0723d8ff)
+2018-12-06T20:59:30.2375782+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0" (0723d8ff)
+2018-12-06T20:59:30.2632754+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UCN], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-12-06T20:59:30.2782980+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("8"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);" (0723d8ff)
+2018-12-06T20:59:30.2806832+02:00 0HLIRLJC18IAV:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UCN] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-12-06T20:59:30.2878231+02:00 0HLIRLJC18IAV:0000000F [INF] Executed action method "Eventures.Controllers.UsersController.ExternalLoginCallback (Eventures)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 1345.9454ms. (50a9e262)
+2018-12-06T20:59:30.3023971+02:00 0HLIRLJC18IAV:0000000F [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2018-12-06T20:59:30.3075348+02:00 0HLIRLJC18IAV:0000000F [INF] Executed action "Eventures.Controllers.UsersController.ExternalLoginCallback (Eventures)" in 1365.866ms (afa2e885)
+2018-12-06T20:59:30.3102846+02:00 0HLIRLJC18IAV:0000000F [INF] Request finished in 1404.8047ms 302  (791a596a)
+2018-12-06T20:59:30.3222588+02:00 0HLIRLJC18IAV:00000010 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-12-06T20:59:30.3231021+02:00 0HLIRLJC18IAV:00000010 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:30.3581759+02:00 0HLIRLJC18IAV:00000010 [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:30.3761616+02:00 0HLIRLJC18IAV:00000010 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Index (Eventures)" (a44c0341)
+2018-12-06T20:59:30.3763740+02:00 0HLIRLJC18IAV:00000010 [INF] Executing action method "Eventures.Controllers.HomeController.Index (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:30.3765270+02:00 0HLIRLJC18IAV:00000010 [INF] Executed action method "Eventures.Controllers.HomeController.Index (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0214ms. (50a9e262)
+2018-12-06T20:59:30.3767020+02:00 0HLIRLJC18IAV:00000010 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-12-06T20:59:30.3851883+02:00 0HLIRLJC18IAV:00000010 [INF] Executed ViewResult - view "Index" executed in 8.497ms. (f66409e9)
+2018-12-06T20:59:30.3853445+02:00 0HLIRLJC18IAV:00000010 [INF] Executed action "Eventures.Controllers.HomeController.Index (Eventures)" in 9.0423ms (afa2e885)
+2018-12-06T20:59:30.3855640+02:00 0HLIRLJC18IAV:00000010 [INF] Request finished in 63.3431ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:30.4740608+02:00 0HLIRLJC18IAT:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2018-12-06T20:59:30.4748690+02:00 0HLIRLJC18IAT:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:30.4912834+02:00 0HLIRLJC18IAT:00000007 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:30.4923187+02:00 0HLIRLJC18IAT:00000007 [INF] Request finished in 18.3617ms 302  (791a596a)
+2018-12-06T20:59:30.5040528+02:00 0HLIRLJC18IAV:00000011 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2018-12-06T20:59:30.5048113+02:00 0HLIRLJC18IAV:00000011 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:30.5307478+02:00 0HLIRLJC18IAV:00000011 [INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:30.5317567+02:00 0HLIRLJC18IAV:00000011 [INF] Request finished in 27.7553ms 302  (791a596a)
+2018-12-06T20:59:30.6154841+02:00 0HLIRLJC18IAV:00000012 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:30.6162788+02:00 0HLIRLJC18IAV:00000012 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:30.6307208+02:00 0HLIRLJC18IAV:00000012 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:30.6313718+02:00 0HLIRLJC18IAV:00000012 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:30.6315173+02:00 0HLIRLJC18IAV:00000012 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:30.6316106+02:00 0HLIRLJC18IAV:00000012 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0133ms. (50a9e262)
+2018-12-06T20:59:30.6317525+02:00 0HLIRLJC18IAV:00000012 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:30.6331206+02:00 0HLIRLJC18IAV:00000012 [INF] Executed ViewResult - view "Error" executed in 1.3963ms. (f66409e9)
+2018-12-06T20:59:30.6332202+02:00 0HLIRLJC18IAV:00000012 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.7653ms (afa2e885)
+2018-12-06T20:59:30.6334013+02:00 0HLIRLJC18IAV:00000012 [INF] Request finished in 18.0502ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:31.1912180+02:00 0HLIRLJC18IAV:00000013 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:31.1920926+02:00 0HLIRLJC18IAV:00000013 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:31.1929543+02:00 0HLIRLJC18IAV:00000013 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:31.1935563+02:00 0HLIRLJC18IAV:00000013 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:31.1937629+02:00 0HLIRLJC18IAV:00000013 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:31.1938798+02:00 0HLIRLJC18IAV:00000013 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0169ms. (50a9e262)
+2018-12-06T20:59:31.1940440+02:00 0HLIRLJC18IAV:00000013 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:31.1960754+02:00 0HLIRLJC18IAV:00000013 [INF] Executed ViewResult - view "Error" executed in 2.0179ms. (f66409e9)
+2018-12-06T20:59:31.1963168+02:00 0HLIRLJC18IAV:00000013 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 2.5454ms (afa2e885)
+2018-12-06T20:59:31.1967764+02:00 0HLIRLJC18IAV:00000013 [INF] Request finished in 5.4803ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:35.4462578+02:00 0HLIRLJC18IAV:00000014 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Users/Logout application/x-www-form-urlencoded 225 (ca22a1cb)
+2018-12-06T20:59:35.4468861+02:00 0HLIRLJC18IAV:00000014 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.4476027+02:00 0HLIRLJC18IAV:00000014 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.4523750+02:00 0HLIRLJC18IAV:00000014 [INF] Route matched with "{action = \"Logout\", controller = \"Users\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.UsersController.Logout (Eventures)" (a44c0341)
+2018-12-06T20:59:35.4530831+02:00 0HLIRLJC18IAV:00000014 [INF] Executing action method "Eventures.Controllers.UsersController.Logout (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:35.4616328+02:00 0HLIRLJC18IAV:00000014 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2018-12-06T20:59:35.4624285+02:00 0HLIRLJC18IAV:00000014 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2018-12-06T20:59:35.4629149+02:00 0HLIRLJC18IAV:00000014 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2018-12-06T20:59:35.4631402+02:00 0HLIRLJC18IAV:00000014 [INF] Executed action method "Eventures.Controllers.UsersController.Logout (Eventures)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 9.9602ms. (50a9e262)
+2018-12-06T20:59:35.4634102+02:00 0HLIRLJC18IAV:00000014 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2018-12-06T20:59:35.4635637+02:00 0HLIRLJC18IAV:00000014 [INF] Executed action "Eventures.Controllers.UsersController.Logout (Eventures)" in 11.0915ms (afa2e885)
+2018-12-06T20:59:35.4637895+02:00 0HLIRLJC18IAV:00000014 [INF] Request finished in 17.5857ms 302  (791a596a)
+2018-12-06T20:59:35.4682297+02:00 0HLIRLJC18IAV:00000015 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-12-06T20:59:35.4692508+02:00 0HLIRLJC18IAV:00000015 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.4703703+02:00 0HLIRLJC18IAV:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.4707854+02:00 0HLIRLJC18IAV:00000015 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Index (Eventures)" (a44c0341)
+2018-12-06T20:59:35.4710754+02:00 0HLIRLJC18IAV:00000015 [INF] Executing action method "Eventures.Controllers.HomeController.Index (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:35.4712231+02:00 0HLIRLJC18IAV:00000015 [INF] Executed action method "Eventures.Controllers.HomeController.Index (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0124ms. (50a9e262)
+2018-12-06T20:59:35.4713677+02:00 0HLIRLJC18IAV:00000015 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-12-06T20:59:35.4727507+02:00 0HLIRLJC18IAV:00000015 [INF] Executed ViewResult - view "Index" executed in 1.3173ms. (f66409e9)
+2018-12-06T20:59:35.4729020+02:00 0HLIRLJC18IAV:00000015 [INF] Executed action "Eventures.Controllers.HomeController.Index (Eventures)" in 2.0067ms (afa2e885)
+2018-12-06T20:59:35.4730831+02:00 0HLIRLJC18IAV:00000015 [INF] Request finished in 4.9622ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:35.5288717+02:00 0HLIRLJC18IAV:00000016 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2018-12-06T20:59:35.5292056+02:00 0HLIRLJC18IAT:00000008 [INF] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2018-12-06T20:59:35.5301087+02:00 0HLIRLJC18IAT:00000008 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.5308834+02:00 0HLIRLJC18IAV:00000016 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.5315706+02:00 0HLIRLJC18IAT:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.5322703+02:00 0HLIRLJC18IAT:00000008 [INF] Request finished in 2.9479ms 302  (791a596a)
+2018-12-06T20:59:35.5342628+02:00 0HLIRLJC18IAV:00000016 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.5349041+02:00 0HLIRLJC18IAV:00000016 [INF] Request finished in 6.1635ms 302  (791a596a)
+2018-12-06T20:59:35.5438050+02:00 0HLIRLJC18IAV:00000017 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:35.5448755+02:00 0HLIRLJC18IAV:00000017 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.5458198+02:00 0HLIRLJC18IAV:00000017 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.5461178+02:00 0HLIRLJC18IAV:00000017 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:35.5462522+02:00 0HLIRLJC18IAV:00000017 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:35.5463561+02:00 0HLIRLJC18IAV:00000017 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0129ms. (50a9e262)
+2018-12-06T20:59:35.5464851+02:00 0HLIRLJC18IAV:00000017 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:35.5472442+02:00 0HLIRLJC18IAV:00000017 [INF] Executed ViewResult - view "Error" executed in 0.7657ms. (f66409e9)
+2018-12-06T20:59:35.5473691+02:00 0HLIRLJC18IAV:00000017 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.1807ms (afa2e885)
+2018-12-06T20:59:35.5478118+02:00 0HLIRLJC18IAV:00000017 [INF] Request finished in 4.1657ms 200 text/html; charset=utf-8 (791a596a)
+2018-12-06T20:59:35.5496102+02:00 0HLIRLJC18IAV:00000018 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Home/Error/404   (ca22a1cb)
+2018-12-06T20:59:35.5505786+02:00 0HLIRLJC18IAV:00000018 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-12-06T20:59:35.5513318+02:00 0HLIRLJC18IAV:00000018 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-12-06T20:59:35.5516647+02:00 0HLIRLJC18IAV:00000018 [INF] Route matched with "{action = \"Error\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Controllers.HomeController.Error (Eventures)" (a44c0341)
+2018-12-06T20:59:35.5518348+02:00 0HLIRLJC18IAV:00000018 [INF] Executing action method "Eventures.Controllers.HomeController.Error (Eventures)" - Validation state: Valid (dad538d7)
+2018-12-06T20:59:35.5519352+02:00 0HLIRLJC18IAV:00000018 [INF] Executed action method "Eventures.Controllers.HomeController.Error (Eventures)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0133ms. (50a9e262)
+2018-12-06T20:59:35.5520838+02:00 0HLIRLJC18IAV:00000018 [INF] Executing ViewResult, running view "Error". (c83d0e25)
+2018-12-06T20:59:35.5529160+02:00 0HLIRLJC18IAV:00000018 [INF] Executed ViewResult - view "Error" executed in 0.8496ms. (f66409e9)
+2018-12-06T20:59:35.5530441+02:00 0HLIRLJC18IAV:00000018 [INF] Executed action "Eventures.Controllers.HomeController.Error (Eventures)" in 1.2816ms (afa2e885)
+2018-12-06T20:59:35.5532351+02:00 0HLIRLJC18IAV:00000018 [INF] Request finished in 3.694ms 200 text/html; charset=utf-8 (791a596a)

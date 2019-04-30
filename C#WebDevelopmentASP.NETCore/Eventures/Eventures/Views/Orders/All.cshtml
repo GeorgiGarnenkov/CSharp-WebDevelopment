@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Eventures.ViewModels.Orders.OrderViewModel>
+
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "All Orders";
+}
+
+<div class="container">
+    <h1 class="text-center">All Orders</h1>
+    <hr class="hr-2 bg-info" />
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr class="font-weight-bold">
+                <th scope="col">#</th>
+                <th scope="col">Event</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Ordered On</th>
+            </tr>
+            </thead>
+            <tbody>
+                @{ var count = 1;}
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <th scope="row">@count</th>
+                        <td>@order.EventName</td>
+                        <td>@order.CustomerName</td>
+                        <td>@order.OrderedOn.ToString("dd-MMM-yy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                    </tr>
+                    count++;
+                }
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr-2 bg-info" />
+</div>

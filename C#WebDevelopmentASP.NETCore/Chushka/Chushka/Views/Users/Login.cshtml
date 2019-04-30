@@ -1,0 +1,30 @@
+﻿@model Chushka.ViewModels.LoginViewModel
+
+<h1 class="text-center">Login</h1>
+<hr class="bg-secondary half-width" />
+
+<form asp-controller="Users" asp-action="Login" class="mx-auto half-width" method="post">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Invalid login attempt.</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+    @*<div asp-validation-summary="All"></div>*@
+    <div class="form-group">
+        <label asp-for="Username">Username</label>
+        <input asp-for="Username" class="form-control" placeholder="Username...">
+        <span asp-validation-for="Username" class="alert-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" class="form-control" placeholder="Password...">
+        <span asp-validation-for="Password" class="alert-danger"></span>
+    </div>
+    <div class="button-holder d-flex justify-content-center">
+        <button type="submit" class="btn chushka-bg-color">Login</button>
+    </div>
+</form>
